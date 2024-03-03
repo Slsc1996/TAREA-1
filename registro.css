@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    background-color: rgb(31, 10, 78) !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+header {
+    margin-bottom: 0px;
+}
+
+header img {
+    width: 140px;
+    border: none;
+}
+
+.main-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-form h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.main-form form {
+    background-color: rgb(70, 24, 172);
+    padding: 30px;
+}
+
+form p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-form input {
+    background-color: rgb(61, 21, 150);
+    border-color: rgb(61, 21, 150);
+}
+
+.main-form input:focus {
+    background-color: rgb(44, 14, 108);
+    border-color: white;
+    color: white;
+}
+
+.main-form input:not(:focus) {
+    color: white;
+}
+
+.form-control {
+    background-color: rgb(61, 21, 150) !important;
+    border-color: rgb(61, 21, 150) !important;
+    color: white !important;
+}
+
+.date {
+    color: white;
+}
+
+.main-form button {
+    font-weight: bold;
+    color: black;
+    background-color: gold;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-check-label {
+    color: white;
+}
+
+.main-form button:hover {
+    background-color: gold;
+    color: black;
+    filter: brightness(70%) !important;
+    transition: filter 0.3s !important;
+}
+
+footer {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-right: 20px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
